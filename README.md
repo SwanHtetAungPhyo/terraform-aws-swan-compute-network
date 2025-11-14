@@ -20,7 +20,7 @@ A Terraform module for deploying a complete AWS VPC infrastructure with compute 
 
 ```hcl
 module "swan_network" {
-  source = "github.com/yourusername/terraform-aws-swan-compute-network"
+  source = "SwanHtetAungPhyo/swan-compute-network/aws"
 
   project_name = "myapp"
   environment  = "dev"
@@ -83,7 +83,7 @@ module "swan_network" {
 
 ```hcl
 module "swan_network" {
-  source = "github.com/yourusername/terraform-aws-swan-compute-network"
+  source = "SwanHtetAungPhyo/swan-compute-network/aws"
 
   project_name = "myapp"
   environment  = "prod"
